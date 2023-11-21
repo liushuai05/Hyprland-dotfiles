@@ -74,11 +74,11 @@
     package = config.boot.kernelPackages.nvidiaPackages.latest;
   };
 
-  programs.steam = {
-   enable = true;
-   remotePlay.openFirewall = true;
-   dedicatedServer.openFirewall = true;
-  };
+ # programs.steam = {
+ #  enable = true;
+ #  remotePlay.openFirewall = true;
+ #  dedicatedServer.openFirewall = true;
+ # };
   # Configure console keymap
   console.keyMap = "br-abnt2";
 
