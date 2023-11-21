@@ -20,7 +20,7 @@
 
   fileSystems."/boot" =
     { device = "/dev/sda1";
-      fsType = "vfat";
+      fsType = "fat32";
     };
 
   swapDevices =
